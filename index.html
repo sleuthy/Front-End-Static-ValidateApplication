@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Loan Application</title>
+        <link rel="stylesheet" href="validation.css">
+    </head>
+    <body>
+        <form action = "index.html" method = "post">
+        <h1>Loan Application</h1>
+            <fieldset>
+            <legend>Applicant Information</legend>
+        	First Name:
+        	<input type="text"><br>
+        	Middle Initial:
+        	<input type="text"><br>
+        	Last Name:
+        	<input type="text"><br>
+        	Address:
+        	<input type="text"><br>
+        	Occupation:
+        	<input type="text"><br>
+        	Employer:
+        	<input type="text"><br>
+        	Employer Address:
+        	<input type="text"><br>
+            </fieldset>
+
+        	<fieldset><legend>Loan Details</legend>
+            Type of Loan:<br>
+            <select>
+            <option value="commercial">Commercial</option>
+            <option value="realestate">Real Estate</option>
+            <option value="personal">Personal</option>
+            <option value="mortgage">Mortgage</option>
+            </select><br>
+        	Requested Amount:
+        	<input type="number"><br>
+        	Loan Length:<br>
+        	<input type="radio">5 years<br>
+        	<input type="radio">15 years<br>
+        	<input type="radio">30 years<br>
+            </fieldset>
+
+        	<fieldset><legend>Special Conditions</legend>
+            Please check all that apply:<br>
+        	<input type="checkbox">I have a down payment. <br>
+        	<input type="checkbox">Out-of-state resident <br>
+        	<input type="checkbox">Married <br>
+        	<input type="checkbox">Loan will be co-signed. <br>
+        	</fieldset>
+            <fieldset><legend>Additional Comments</legend>
+        	<textarea rows="5" cols="30">Enter any additional comments here. </textarea>
+        	<br>
+            </fieldset>
+
+            <fieldset><legend>Applicant Contact Info</legend>
+        	Email Address:
+        	<input type="email"><br>
+        	Telephone Number:
+        	<input type="tel"><br>
+        	LinkedIn profile URL:
+        	<input type="url"><br>
+            </fieldset>
+
+            <fieldset>
+        	<button type="submit">Submit Application</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
